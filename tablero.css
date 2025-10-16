@@ -11,7 +11,12 @@ body {
     place-items: center;
     background: linear-gradient(to right, #1c1c1c);
 }
-
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .tablero    {
     width: 400px;
     height: 400px;
@@ -24,8 +29,7 @@ body {
 .tablero * {
     text-align: center;
     font-size: 40px;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
     cursor: pointer;
-    user-select: none;
     border: black solid thin;
 }
